@@ -35,7 +35,7 @@ nav>ul>li>a{
   font-size: 1.5em;
   color: #313131;
 }
-nav>ul>li>a:hover{
+nav>ul>li>a:hover, .ativo{
   color: #fff;
   background-color: #313131;  
 }
