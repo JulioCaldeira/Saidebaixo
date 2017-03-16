@@ -18,7 +18,10 @@ h1, h2, h3, h4, h5 {
 header, nav, footer, section, article, div {
   box-sizing: border-box;
 }
-ul {
+header{
+  padding: 0 10px;
+}
+ul{
   list-style: none;
   padding: 0;
   margin: 0;
