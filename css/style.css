@@ -1,0 +1,38 @@
+/**
+ * Resets básicos iniciais
+ */
+body, html {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 100%;
+}
+body {
+  font-family: "Times New Roman", Times, serif;
+  font-size: 12px;
+  color: #424242;
+}
+h1, h2, h3, h4, h5 {
+  margin: 0; 
+}
+header, nav, footer, section, article, div {
+  box-sizing: border-box;
+}
+ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+nav>ul>li{
+  display: inline-block;
+  padding: 5px 10px;
+}
+nav>ul>li>a{
+  text-decoration: none;
+  font-size: 1.5em;
+  color: #313131;
+}
+nav>ul>li>a:hover{
+  color: #fff;
+  background-color: #313131;  
+}
